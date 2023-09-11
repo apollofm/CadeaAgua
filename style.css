@@ -1,0 +1,122 @@
+/* Estilos para o título h1 */
+.h1-cbc {
+    color: #008B8B;
+}
+
+.h1-cbc {
+    font-size: 5ex;
+}
+
+.h1-cbc {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.tamando-correa {
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    overflow: hidden;
+}
+
+.tamando-correa
+
+/*Estilos h1*/
+.h1-cbc {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/* Estilos para o fundo da página */
+body {
+    background-image: url(fundoazul.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+    /* Estilos para a lista de navegação */
+    .centered {
+        display: flex;
+        justify-content: center;
+        /* Centraliza horizontalmente */
+        align-items: center;
+        /* Centraliza verticalmente */
+        height: 100%;
+        /* Ocupa a altura total do contêiner pai */
+        text-align: center;
+        /* Centraliza o texto horizontalmente */
+    }
+
+
+    .nav li{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav li {
+        display: inline;
+        margin: 0 10px;
+        /* Espaçamento entre os links */
+    }
+
+    /* Estilos para a lista de navegação */
+    .centered {
+        display: flex;
+        justify-content: center;
+        /* Centraliza horizontalmente */
+        align-items: center;
+        /* Centraliza verticalmente */
+        height: 100%;
+        /* Ocupa a altura total do contêiner pai */
+        text-align: center;
+        /* Centraliza o texto horizontalmente */
+    }
+
+    .nav li {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav li {
+        display: inline;
+        margin: 0 10px;
+        /* Espaçamento entre os links */
+        position: relative;
+        /* Permite posicionamento dos elementos filhos */
+    }
+    
+    .nav li a{
+        text-decoration: none;
+        color: #63d1ac;
+        
+
+        /*dd*/
+
+    }
+    .nav li a:hover{
+        color: #ffffff;
+        text-decoration: underline;
+        transition-duration: 0.2s;
+        
+
+    }
+    
+
+    .centralizado {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        font-size: 12px;
+        font-style: italic;
+        color: azure;
+        text-align: center
+    }
+
+    .centralizado {
+        max-width: 400px;
+        margin: auto;
+    }
+}
