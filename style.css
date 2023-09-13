@@ -29,7 +29,7 @@
 
 /* Estilos para o fundo da página */
 body {
-    background-image: url(IMAGENS/fundoazul.png);
+    background-image: url(IMAGENS/Design\ sem\ nome.png);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -109,21 +109,22 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 10vh;
-        font-size: 12px;
+        height: 15vh;
+        font-size: 20px;
         font-style: italic;
         color: azure;
         text-align: center
     }
 
     .centralizado {
-        max-width: 400px;
+        max-width: 800px;
         margin: auto;
     }
 }
 
 .form {
-    background-color: #ffffffb8;
+    background-color: #00000048;
+    backdrop-filter: blur(3px);
     display: flex;
     padding: 1rem;
     max-width: 150px;
@@ -148,7 +149,7 @@ body {
 .input-container input,
 .form button {
     outline: none;
-    border: 1px solid #e5e7eb;
+    border: 1px solid #ffffff80;
     margin: 6px 0;
 }
 
@@ -202,7 +203,7 @@ body {
     text-decoration: underline;
     transition-duration: 0.7s;
     transform: scale(0.10);
-    color: rgb(45, 43, 43);
+    color: rgba(255, 17, 17, 0.394);
     font-weight: 1000;
 }
 
